@@ -258,7 +258,6 @@ def run_next_pass(
     if not compute_cloudiness:
         print("[INFO] Skipping HLS cloud cover calculation and prediction.")
 
-    print('using updated next_pass')
     cli_args = [
         "-b",
         *bbox_list,
